@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jaybe.netlify.app",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion": "^10.0.27",
+    "emotion-theming": "^10.0.10",
+    "gh-pages": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
+    "react-scripts": "3.4.1",
+    "styled-components": "^4.2.0",
+    "styled-theming": "^2.2.0",
+    "travis": "^0.1.1",
+    "yarn": "^1.22.4"
+  },
+  "env": {
+    "REACT-EDITOR": "code"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
